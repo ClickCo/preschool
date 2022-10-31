@@ -1,0 +1,307 @@
+.jumbotron{
+    padding:0 !important;
+    height:380px;
+}
+.fs-header::before{
+    background-color:transparent;
+    background-image:url('/media/images/1202/WTBi12022257.png');
+    background-position:center;
+    background-size: contain;
+     background-repeat: no-repeat;
+}
+.fs-header{
+    background-image:url('/media/images/1202/phtz12022244.png');
+    background-position:center;
+    background-size:cover;
+    border-bottom:none;
+}
+.page-header{
+   visibility:hidden;
+}
+body.fs-bonus .fs-original-goal{
+  display:none;
+}
+.fs-bonus .fs-goafl .fs-original-goal::before,
+.fs-bonus .fs-bonus-goal{
+  display:none;
+}
+.fs-goal .fs-goal-graph-container .fs-goal-graph .fs-goal-graph-fill .fs-goal-graph-fill-bonus {
+  background: #3DA7CE;
+}
+.fs-goal .fs-goal-graph-container .fs-goal-graph .fs-goal-graph-fill {
+  background: #3DA7CE;
+}
+.fs-matchers .fs-matchers-intro strong {
+  color: #af6a2a;
+}
+.fs-countdown{
+      background-color: #2a3b4b;
+
+}
+.fs-countdown .fs-countdown-widget .fs-countdown-unit .fs-countdown-description,
+.fs-countdown .fs-countdown-widget .fs-countdown-sep{
+  color: #d7c7b8;
+}
+.fs-countdown h3 strong {
+  color: inherit;
+}
+.fs-donate{
+     background-color:#af6a2a;
+}
+.fs-left-border-triangle svg polygon{
+    fill:#905723;
+}
+.fs-donate .fs-donate-amounts{
+  color:#fff;
+}
+.fs-btn{
+   background-color:#673e19;
+}
+.fs-btn:hover{
+   background-color:#905723;
+}
+
+/*.fs-carousel {
+  display: none;
+}
+*/
+
+
+/*carousel fs-carousel*/
+.fs-carousel .fs-carousel-image {
+  height: 0;
+  padding-top: 50%;
+  position: relative;
+}
+.fs-carousel img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  
+}
+
+
+/*owl carousel*/
+.owl-nav .owl-prev,
+.owl-nav .owl-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 13;
+  left: 20px;
+  font-size: 0;
+}
+.owl-nav .owl-prev:before,
+.owl-nav .owl-next:before {
+  content: "\f053";
+  font-family: "FontAwesome";
+  color: #fff;
+  font-size: 32px;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+.owl-nav .owl-next {
+  right: 20px;
+  left: auto;
+}
+.owl-nav .owl-next:before {
+  content: "\f054";
+}
+.fs-about-images {
+ display:none !important;
+}
+.fs-about-text{
+    max-height:none!important;
+}
+.fs-about h3{
+    color:#2a3b4b;
+}
+.fs-about h4,
+.fs-partners h3,
+.fs-partners h3 span{
+      color:#af6a2a;
+}
+.fs-about .fs-matchers {
+  margin-top: 30px;
+  padding-top: 20px;
+}
+.fs-about .fs-matchers:before {
+  content: "Thank You to Our Matchers";
+  text-align: center;
+  display: block;
+  font-family: "Patua One", cursive;
+  color: #af6a2a;
+  font-size: 1.3em;
+}
+.fs-about .fs-matchers .fs-matchers-list {
+  padding: 10px 20px 0;
+  justify-content: center;
+}
+.fs-about .fs-matchers .fs-matchers-list .fs-matcher {
+  width: 45%;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0;
+}
+.fs-matchers .fs-matcher .fs-matcher-image .fs-image-wrap-ratio::after{
+      box-shadow: inset 0 0 0 2px #af6a2a;
+}
+.fs-about .fs-matchers .fs-matchers-list .fs-matcher .fs-matcher-title{
+     color: #af6a2a;
+  font-size: 1.3em;
+}
+.fs-goal,
+.fs-partners .fs-partner-container .fs-partner{
+      background-color:#af6a2a;
+}
+.fs-partners .fs-partner-container .fs-partner svg polygon{
+     fill:#af6a2a;
+}
+.fs-partners > div{
+      border-top:6px solid #2a3b4b;
+}
+.fs-partners .fs-partner-container .fs-partner .fs-partner-name {
+      color:#fff;
+}
+.fs-partner-donation-amount{
+      color:#388495;
+}
+.fs-partners .fs-btn {
+   background-color: #3erf82;
+}
+.fs-btn-read-more{
+     display:none !important;
+}
+@media (max-width: 700px) {
+.fs-header::before{
+      background-image:url('/media/images/1202/Wyfl12022242.png');
+      background-position:center;
+      background-size:cover;
+}
+.photo img {
+float: none;
+max-width: 100%;
+padding-left: 0 !important;
+    padding-bottom: 15px;
+}
+
+  .fs-carousel .fs-carousel-image {
+      padding-top: 70%;
+  }
+     .fs-carousel{
+            display:none !important;
+     }
+     #owl_replace{
+           display:block !important;
+           width: 100%;
+     }
+    .fs-about .fs-matchers .fs-matchers-list .fs-matcher {
+          width: 100% !important;
+     }
+}
+
+.fs-partners .fs-predonate-message {
+  max-width: 80%;
+  color: #666;
+  margin: 10px auto;
+}
+
+@media (min-width: 992px) {
+  .fs-pre-donate .fs-about-text {
+      max-height: 30000px !important;
+  }
+  .fs-pre-donate .fs-about-text .fs-btn-read-more {
+      display: none;
+  }
+
+
+}
+
+#cause {
+background-color: #F1F1F1;
+  padding: .02px 20px;
+  margin-top: 30px;
+}
+
+.fs-top-border-triangle polygon, .fs-left-border-triangle polygon {
+fill: #905723;
+}
+
+.donar-section {
+    background: #d7c7b84a;
+}
+
+.fs-about-main-body {
+    text-align: left;
+}
+.fs-matchers .fs-matcher .fs-matcher-title {
+color: #2b3c4c;
+}
+
+.donar-section .nav-tabs .nav-link {
+color: #023768a3;
+}
+
+.fs-matchers {
+    background: #fff;
+border: none;
+}
+.team-donate-btn {
+    background: #2b3c4c;
+}
+.fs-footer {
+margin-top: 0;
+background: #d7c7b8;
+}
+
+.fs-footer .row>div:nth-of-type(2) h3 {
+    color: #af6a2a;
+}
+a#temporaryDonateButton {
+    font-family: 'Patua One';
+    font-size: 19px;
+    font-weight: normal;
+}
+
+
+.fs-full-donate-form .fs-donate-body .fs-effective-donation-container .fs-effective-donation-amount-container {
+color: #af6a2a;
+}
+@media only screen and (max-width: 600px) {
+.photo {
+float: none;
+padding-left: 0;
+    text-align: center;
+margin-bottom: 20px;
+}
+}
+.donate-members .donates_user .team-up {
+    color: #af6a2a;
+}
+
+
+
+.donate-button a {
+    display: inline-block;
+    background: #af6a2a;
+    padding: 8px 12px;
+      color: white;
+    font-size: 14px;
+    text-decoration: none;
+    margin-left: 0px;
+}
+
+.donate-button a:hover {
+background: #2b3c4c;  
+  transition: 0.3s;
+ 
+}
+
+.donate-button a:first-child:hover {
+    background: #af6a2a !important;
+}
+.donate-button {
+    margin: 0;
+}
